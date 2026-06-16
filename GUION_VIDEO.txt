@@ -1,0 +1,367 @@
+================================================================
+     GUION DE VIDEO - PROYECTO WEB ECOMMERCE
+     Materia: Algoritmos y Programacion - Primer Semestre
+     Universidad: UNEXCA
+     Grupo: 874
+     Duracion estimada: 10 a 12 minutos
+================================================================
+
+INTEGRANTES DEL GRUPO:
+  - Oswaldo Gonzalez    C.I: 29.756.111   <-- PRESENTADOR PRINCIPAL
+  - Moises Mendoza      C.I: 32.900.126
+  - Luis Alvarado       C.I: 31.237.979
+  - Jean Serrada        C.I: 32.242.616
+  - Diego Jimenes       C.I: 32.180.679
+
+================================================================
+ANTES DE GRABAR: PREPARACION
+================================================================
+
+1. Tener abierto Visual Studio Code con la carpeta:
+      proyecto-ecomer\src\app\
+
+2. Tener corriendo el proyecto en el navegador.
+   Para correrlo, abrir una terminal en la carpeta "proyecto-ecomer"
+   y escribir:
+      npm start
+   Luego abrir el navegador en: http://localhost:4200
+
+3. Grabar la pantalla y el audio al mismo tiempo.
+
+4. Al inicio del video mostrar una diapositiva o imagen con
+   los nombres y cedulas de todos los integrantes.
+
+================================================================
+PARTE 1 - OSWALDO GONZALEZ (Presentador principal) ~2.5 minutos
+================================================================
+
+[MOSTRAR EN PANTALLA: La lamina/diapositiva con todos los nombres
+ y cedulas del grupo 874]
+
+OSWALDO dice:
+
+  "Buenos dias/tardes. Somos el grupo 874 de la materia
+   Algoritmos y Programacion del primer semestre de la UNEXCA.
+
+   Los integrantes del grupo somos:
+     - Oswaldo Gonzalez, cedula 29.756.111
+     - Moises Mendoza, cedula 32.900.126
+     - Luis Alvarado, cedula 31.237.979
+     - Jean Serrada, cedula 32.242.616
+     - Diego Jimenes, cedula 32.180.679
+
+[MOSTRAR EN PANTALLA: La app corriendo en el navegador en http://localhost:4200]
+
+   Nuestro proyecto es una aplicacion web de comercio electronico,
+   tambien llamado e-commerce. Simula una tienda en linea donde
+   los usuarios pueden ver productos tecnologicos, agregarlos
+   a un carrito de compras y completar un proceso de pago.
+
+   La aplicacion fue construida usando Angular, que es un
+   framework de JavaScript moderno, junto con Bootstrap para
+   el diseno visual. Todo el codigo esta escrito en TypeScript,
+   que es el lenguaje de programacion basado en scripts que
+   usamos a lo largo del proyecto.
+
+   La aplicacion cumple con los tres componentes que exige
+   la asignacion: la arquitectura en tres capas, el diseno
+   de interfaz con CSS, y la programacion de scripts.
+
+[MOSTRAR EN PANTALLA: Visual Studio Code con la carpeta src/app abierta
+ para mostrar las subcarpetas: pages, components, services, data]
+
+   Aqui pueden ver como esta organizada la estructura del proyecto
+   en Visual Studio Code. Dentro de la carpeta 'app' hay cuatro
+   carpetas principales que representan cada capa del sistema.
+   Cada integrante del grupo explicara una de estas partes.
+
+   A continuacion le doy la palabra a Moises."
+
+================================================================
+PARTE 2 - MOISES MENDOZA ~2 minutos
+================================================================
+TEMA: Arquitectura del proyecto (las 3 capas)
+
+[MOSTRAR EN PANTALLA: Visual Studio Code con la carpeta src/app abierta
+ Mostrar claramente las subcarpetas: pages, components, services, data]
+
+MOISES dice:
+
+  "Hola, soy Moises Mendoza. Me toca explicar como esta
+   organizado el proyecto usando la arquitectura de tres capas.
+
+   Como pueden ver en el explorador de archivos de Visual Studio Code,
+   dentro de la carpeta 'src/app' hay cuatro carpetas. Cada una
+   cumple un rol especifico dentro de la arquitectura.
+
+   La PRIMERA capa es la Capa de Presentacion.
+   Es lo que el usuario ve y con lo que interactua en pantalla.
+   Esta representada por las carpetas 'pages' y 'components'.
+   Ahi estan todas las pantallas: la pagina de inicio,
+   el listado de productos, el carrito y el checkout.
+
+   La SEGUNDA capa es la Capa de Logica de Negocio.
+   Es la inteligencia del sistema: los calculos y las reglas
+   que ocurren detras de la pantalla sin que el usuario las vea.
+   Esta representada por la carpeta 'services'.
+   Ahi esta el archivo 'cart.service.ts' que controla todo
+   el comportamiento del carrito de compras.
+
+   La TERCERA capa es la Capa de Datos.
+   Es donde se almacena la informacion del sistema.
+   Esta representada por la carpeta 'data'.
+   Ahi esta el archivo 'products.ts' que tiene todos los
+   productos con sus precios, imagenes y descripciones.
+
+[ABRIR el archivo: proyecto-ecomer\src\app\app.routes.ts]
+
+   Por ultimo, el archivo 'app.routes.ts' define las rutas
+   de navegacion. Cada ruta conecta una direccion del navegador
+   con una pagina del sistema:
+   '/' es el inicio, '/products' es el catalogo,
+   '/cart' es el carrito y '/checkout' es el proceso de pago.
+
+   Gracias a esta separacion el proyecto cumple claramente
+   con la arquitectura de tres capas. Le doy la palabra a Luis."
+
+================================================================
+PARTE 3 - LUIS ALVARADO ~2 minutos
+================================================================
+TEMA: Diseno de Interfaz (CSS y Bootstrap)
+
+[MOSTRAR EN PANTALLA: El navegador con la app en http://localhost:4200
+ Mostrar en pantalla completa primero y luego achicarlo para
+ demostrar el diseno responsivo]
+
+LUIS dice:
+
+  "Hola, soy Luis Alvarado. Voy a explicar el diseno visual
+   del proyecto, que corresponde a la parte de CSS e interfaz.
+
+   Como pueden ver en el navegador, la aplicacion tiene un diseno
+   moderno y profesional. Esto es gracias a Bootstrap 5, que es
+   un framework de CSS que nos ayuda a construir interfaces
+   atractivas y ordenadas de manera rapida.
+
+[REDUCIR el tamano de la ventana del navegador]
+
+   Si reduzco el tamano de la ventana del navegador, pueden ver
+   que la interfaz se adapta automaticamente. Los elementos
+   se reorganizan solos dependiendo del tamano de la pantalla.
+   Eso es el diseno responsivo que pide la asignacion.
+
+[ABRIR en VS Code: proyecto-ecomer\src\styles.scss]
+
+   En el archivo 'styles.scss' estan los estilos globales del
+   proyecto. Aqui se cargan Bootstrap y los estilos personalizados
+   como los colores, los efectos de animacion y el tamano
+   de ciertos elementos visuales.
+
+[ABRIR en VS Code: proyecto-ecomer\src\app\pages\home\home.component.ts
+ Mostrar el bloque de HTML del template, especialmente las clases
+ como class="row", class="col-12", class="btn btn-primary",
+ class="rounded-3", etc.]
+
+   Y aqui en el archivo de la pagina de inicio podemos ver
+   como usamos las clases de Bootstrap directamente en el HTML.
+   Por ejemplo, 'row' y 'col' organizan el contenido en columnas,
+   'btn btn-primary' estiliza los botones en azul, y 'rounded-3'
+   pone bordes redondeados en las tarjetas.
+
+   Asi logramos un diseno ordenado, con buena combinacion de
+   colores y completamente responsivo. Le doy la palabra a Jean."
+
+================================================================
+PARTE 4 - JEAN SERRADA ~2 minutos
+================================================================
+TEMA: Scripts y Logica de programacion (TypeScript)
+
+[ABRIR en VS Code: proyecto-ecomer\src\app\services\cart.service.ts]
+
+JEAN dice:
+
+  "Hola, soy Jean Serrada. Voy a explicar la programacion de
+   scripts, que es la logica de negocio del sistema.
+
+   El archivo mas importante de esta capa es 'cart.service.ts'
+   dentro de la carpeta 'services'.
+
+[MOSTRAR el contenido del archivo, especialmente los metodos:
+ addToCart, removeFromCart, updateQuantity, y las variables:
+ subtotal, tax, shipping, total]
+
+   Este archivo contiene toda la logica del carrito de compras.
+   Tiene funciones que realizan acciones especificas:
+
+   - 'addToCart' agrega un producto al carrito.
+     Si el producto ya estaba, simplemente aumenta su cantidad.
+
+   - 'removeFromCart' elimina completamente un producto.
+
+   - 'updateQuantity' cambia la cantidad de un producto.
+     Si la cantidad llega a cero, lo elimina automaticamente.
+
+   - Y hay calculos automaticos en tiempo real:
+     'subtotal' suma todos los precios,
+     'tax' calcula el 8% de impuesto,
+     'shipping' calcula el costo de envio,
+     y 'total' da el precio final que debe pagar el usuario.
+
+[ABRIR en VS Code: proyecto-ecomer\src\app\pages\checkout\checkout.component.ts
+ Mostrar el formulario con campos required y los metodos nextStep
+ y completeOrder]
+
+   En el archivo 'checkout.component.ts' esta el formulario de pago.
+   Los campos tienen la propiedad 'required' que obliga al usuario
+   a completarlos antes de avanzar. La funcion 'nextStep' controla
+   el avance entre los pasos del checkout, y 'completeOrder'
+   simula el procesamiento del pago y genera el numero de pedido.
+
+   Toda esta es programacion de scripts funcionando en tiempo real.
+   Le doy la palabra a Diego para la demostracion."
+
+================================================================
+PARTE 5 - DIEGO JIMENES ~3 minutos
+================================================================
+TEMA: Demostracion funcional completa del sistema
+
+[MOSTRAR EN PANTALLA: La app corriendo en el navegador en http://localhost:4200]
+
+DIEGO dice:
+
+  "Hola, soy Diego Jimenes. Ahora voy a mostrar la aplicacion
+   funcionando de principio a fin, para verificar que el sistema
+   corre sin errores y cumple el objetivo del proyecto.
+
+[ESTAR en la pagina de INICIO - http://localhost:4200/]
+
+   Comenzamos en la pagina de inicio. Aqui vemos los banners
+   de promociones y los iconos de categorias en la parte superior.
+
+[HACER CLIC en 'Shop Now' o navegar a http://localhost:4200/products]
+
+   Al hacer clic en 'Shop Now' entramos al catalogo de productos.
+   Aqui se muestran todos los articulos disponibles en la tienda.
+
+[HACER CLIC en alguna categoria del panel izquierdo, por ejemplo 'Audio']
+
+   En el panel de la izquierda estan los filtros. Al seleccionar
+   una categoria, la pagina filtra automaticamente y muestra solo
+   los productos correspondientes. Eso es la logica de scripts
+   respondiendo al usuario en tiempo real.
+
+[HACER CLIC en 'All Products' para mostrar todos de nuevo,
+ luego hacer clic en el nombre o imagen de un producto]
+
+   Si entro al detalle de un producto veo las imagenes ampliadas,
+   la descripcion completa y las especificaciones tecnicas.
+
+[HACER CLIC en 'Add to Cart' dentro del detalle del producto]
+
+   Al agregar al carrito, pueden ver que el numero en el icono
+   del carrito en la barra superior se actualiza instantaneamente.
+   Eso es el servicio del carrito funcionando en tiempo real.
+
+[VOLVER a /products y agregar 2 o 3 productos mas,
+ luego hacer clic en el icono del carrito para ir a /cart]
+
+   Agrego algunos productos mas y voy al carrito.
+
+   Aqui vemos el resumen del pedido: todos los productos,
+   sus cantidades, precio unitario y total por producto.
+   Puedo aumentar la cantidad con el boton '+' y disminuirla
+   con el '-'. Si la bajo a cero el producto desaparece solo.
+   Abajo vemos el subtotal, el impuesto y el total a pagar.
+
+[HACER CLIC en 'Proceed to Checkout']
+
+   Hacemos clic en 'Proceed to Checkout' y entramos al proceso
+   de pago. En el paso 1 estan los datos de envio: nombre,
+   correo y direccion.
+
+[HACER CLIC en 'Continue to Payment']
+
+   En el paso 2 elegimos el metodo de pago: tarjeta o PayPal.
+
+[SELECCIONAR tarjeta y HACER CLIC en el boton de pagar]
+
+   Al hacer clic en pagar, el sistema muestra una animacion
+   de carga simulando el procesamiento, y luego muestra la
+   pantalla de confirmacion con el numero de pedido generado.
+
+   El sistema funciona correctamente de principio a fin,
+   cumpliendo con todos los requisitos de la asignacion.
+   Le devuelvo la palabra a Oswaldo para el cierre."
+
+================================================================
+CIERRE - OSWALDO GONZALEZ ~30 segundos
+================================================================
+
+[MOSTRAR EN PANTALLA: La pantalla de confirmacion de pedido
+ o volver a la pagina de inicio]
+
+OSWALDO dice:
+
+  "Con eso concluimos la presentacion de nuestro proyecto.
+
+   Construimos una aplicacion web de ecommerce que demuestra
+   los tres componentes solicitados: la arquitectura en tres capas,
+   un diseno de interfaz responsivo con CSS y Bootstrap, y la
+   logica de programacion con scripts de TypeScript que dan
+   dinamismo al sistema.
+
+   Muchas gracias. Somos el grupo 874 de la UNEXCA,
+   primer semestre de Algoritmos y Programacion."
+
+================================================================
+RESUMEN: ARCHIVOS QUE CADA UNO DEBE ABRIR EN PANTALLA
+================================================================
+
+OSWALDO GONZALEZ (Presentador):
+   Navegador: http://localhost:4200
+   VS Code:   proyecto-ecomer\src\app\   (mostrar las 4 subcarpetas)
+
+MOISES MENDOZA:
+   VS Code:   proyecto-ecomer\src\app\                (estructura carpetas)
+   VS Code:   proyecto-ecomer\src\app\app.routes.ts   (rutas)
+
+LUIS ALVARADO:
+   Navegador: http://localhost:4200                   (diseno y responsive)
+   VS Code:   proyecto-ecomer\src\styles.scss         (estilos globales)
+   VS Code:   proyecto-ecomer\src\app\pages\home\home.component.ts
+
+JEAN SERRADA:
+   VS Code:   proyecto-ecomer\src\app\services\cart.service.ts
+   VS Code:   proyecto-ecomer\src\app\pages\checkout\checkout.component.ts
+
+DIEGO JIMENES (Demo en vivo):
+   Navegador: http://localhost:4200            (inicio)
+   Navegador: http://localhost:4200/products   (catalogo y filtros)
+   Navegador: http://localhost:4200/cart       (carrito)
+   Navegador: http://localhost:4200/checkout   (proceso de pago)
+
+================================================================
+ORDEN Y TIEMPO EN EL VIDEO
+================================================================
+
+  1. Oswaldo Gonzalez  - Presentacion e introduccion    (~2.5 min)
+  2. Moises Mendoza    - Arquitectura 3 capas           (~2 min)
+  3. Luis Alvarado     - Diseno CSS / Bootstrap         (~2 min)
+  4. Jean Serrada      - Scripts / Logica               (~2 min)
+  5. Diego Jimenes     - Demostracion funcional         (~3 min)
+  6. Oswaldo Gonzalez  - Cierre                         (~30 seg)
+                                          TOTAL: ~12 min
+
+================================================================
+CONSEJO FINAL
+================================================================
+
+Pueden leer el guion mientras graban, no tienen que memorizar.
+Lo mas importante es mostrar la pantalla mientras hablan para
+que el profesor vea el codigo y la app funcionando al mismo tiempo.
+Si se equivocan en algo, simplemente continuen, no es necesario
+empezar de cero.
+
+Exito grupo 874!
+
+================================================================

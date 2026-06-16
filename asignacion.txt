@@ -1,0 +1,98 @@
+Guía de Asignación Académica: Proyecto Práctico de Desarrollo Web
+
+1. Introducción
+
+El propósito de esta actividad es aplicar los conceptos fundamentales del desarrollo
+web moderno, integrando la estructura de arquitectura cliente-servidor en tres (3)
+capas , el diseño estético y funcional de la interfaz mediante hojas de estilo ( CSS ), y
+la interactividad y lógica del sistema a través de la programación de scripts.
+
+2. Objetivos del Proyecto
+- Diseñar e implementar una aplicación web funcional basada en el modelo de
+3 capas.
+- Construir una interfaz de usuario atractiva, responsiva y usable utilizando
+herramientas de diseño CSS.
+- Desarrollar la lógica de negocio y validaciones del lado del cliente/servidor
+mediante programación de scripts.
+3. Requisitos Técnicos del Proyecto
+
+El desarrollo de la aplicación web debe evidenciar claramente los siguientes tres
+componentes:
+
+A. Arquitectura Cliente-Servidor (3 Capas)
+
+La aplicación debe estar estructurada dividiendo las responsabilidades de la
+siguiente manera:
+
+Capa de Presentación (Frontend): Interfaz gráfica con la que interactúa el
+usuario (HTML5 / CSS3).
+Capa de Lógica de Negocio (Backend): Servidor o script encargado de
+procesar las peticiones del cliente, validar datos y aplicar las reglas del
+sistema.
+Capa de Datos: Persistencia de la información (puede ser a través de una
+base de datos o simulación estructurada de almacenamiento).
+B. Diseño de Interfaz (CSS)
+
+Uso de CSS para la maquetación y el estilizado visual (se valora el uso de
+Flexbox, CSS Grid o frameworks si están permitidos).
+Diseño responsivo (adaptable a pantallas de computadoras y dispositivos
+móviles).
+Correcta combinación de colores, tipografías legibles y distribución armónica
+de los elementos.
+C. Programación de Scripts
+
+Uso de lenguajes de programación basados en scripts (por ejemplo,
+JavaScript/Python) para dotar de dinamismo a la aplicación.
+Validación de formularios en tiempo real.
+4. Formato de Entrega: Defensa en Video (Obligatorio)
+La evaluación de este proyecto se realizará exclusivamente mediante la presentación
+de un video explicativo. No se recibirán códigos sin su respectivo material
+audiovisual de respaldo.
+
+Condiciones del Video:
+
+Presentación Inicial: Al inicio del video, se debe incluir una lámina o intro
+donde se nombren explícitamente a todos los integrantes del grupo
+(Nombre, Apellido y Cédula/Identificación).
+Explicación del Desarrollo: Los integrantes deben explicar el proceso de
+realización del proyecto. Se debe mostrar la pantalla compartida detallando:
+o La arquitectura implementada (cómo se comunican las capas).
+o El código fuente principal (explicación breve de los scripts y estilos CSS
+clave).
+o Demostración funcional: El sistema en ejecución, mostrando el flujo
+completo de la aplicación y validando que funcione correctamente.
+Participación: Todos los miembros del equipo registrados en la presentación
+deben tener una participación activa en la explicación verbal del video.
+Duración: Máximo 10-12 minutos (debe ser conciso y directo al grano).
+Plataforma de entrega: Subir el video a una plataforma (YouTube, Drive,
+OneDrive) y adjuntar el enlace de acceso público junto con los archivos de
+código fuente en el link: b.spline2000@proton.me
+• Fecha tope de entrega: 17 /06/
+5. Criterios de Evaluación
+
+Criterio Descripción
+Puntaje
+Max.
+Cumplimiento
+Técnico (3 Capas)
+Separación clara de la presentación,
+lógica y persistencia de datos. 25%^
+Diseño de Interfaz
+(CSS)
+Estética, usabilidad, orden visual y
+adaptabilidad responsiva. 20%^
+Interactividad
+(Scripts)
+Lógica de programación limpia,
+validaciones funcionales y dinamismo. 20%^
+Presentación y
+Defensa (Video)
+Identificación de los integrantes,
+claridad al explicar el código y el
+desarrollo del proyecto.
+25%
+Funcionamiento
+General
+La aplicación corre sin errores críticos y
+cumple con el objetivo planteado. 10%^
+Total 100%
